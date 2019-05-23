@@ -111,6 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="winconsole.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="random.h" />
+    <ClInclude Include="winconsole.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
